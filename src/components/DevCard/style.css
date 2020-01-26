@@ -1,0 +1,57 @@
+@-moz-keyframes animacao-abertura {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animacao-abertura {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes animacao-abertura {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animacao-abertura {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.avatar{
+  width: 60px;
+  height: 60px;
+}
+
+.card{   
+  font-size: 13px;
+  border: none;
+
+  animation-name: animacao-abertura;
+  animation-duration: 0.3s;
+}
+
+.card p{
+  font-size: 14px;
+}
+
+.btn-icon{
+  pointer-events: none;
+
+}
